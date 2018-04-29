@@ -1,16 +1,21 @@
 $(document).ready(function() {
 
 	function wResize() {
-		$("header").css("height", $(window).height());
+		//$("header").css("height", $(window).height());
 	};
 	wResize();
 	$(window).resize(function() {
 		wResize()
 	});
 
-	$(".wrapper .tab").click(function() {
-		$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-		$(".tab_item").hide().eq($(this).index()).fadeIn()
+	$(".top_phone .wrapper .tab").click(function() {
+		$(".top_phone .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".top_phone .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
+
+	$(".tabs_header .wrapper .tab").click(function() {
+		$(".tabs_header .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".tabs_header .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
 	//Цели для Яндекс.Метрики и Google Analytics

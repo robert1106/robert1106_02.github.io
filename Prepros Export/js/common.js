@@ -8,9 +8,14 @@ $(document).ready(function() {
 		wResize()
 	});
 
-	$(".wrapper .tab").click(function() {
-		$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-		$(".tab_item").hide().eq($(this).index()).fadeIn()
+	$(".top_phone. wrapper .tab").click(function() {
+		$(".top_phone. wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".top_phone .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
+
+	$(".top_phone. wrapper .tab").click(function() {
+		$(".top_phone. wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".top_phone .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
 	//Цели для Яндекс.Метрики и Google Analytics
