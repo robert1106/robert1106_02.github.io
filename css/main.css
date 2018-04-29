@@ -84,7 +84,7 @@ header {
 }
 
 .top_header {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .top_header h2 {
@@ -94,7 +94,7 @@ header {
 }
 
 .tabs_header {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .tabs_header .tab_item {
@@ -125,7 +125,7 @@ header {
   color: #6F6A67;
 }
 
-.tabs_header .tabs span {
+.tabs_header .tabs .tab {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.25);
   padding: 15px 18px;
@@ -140,7 +140,7 @@ header {
   transition: all 0.25s ease;
 }
 
-.tabs_header .tabs span.active {
+.tabs_header .tabs .tab.active {
   background-color: rgba(255, 255, 255, 0.6);
   color: #000;
 }
@@ -167,10 +167,32 @@ header {
   border-radius: 3px;
   color: #fff;
   text-decoration: none;
-  font-family: "RobotoRegular", sans-sarif;
+  font-family: "RobotoBold", sans-sarif;
   font-size: 16px;
+}
+
+.button.btn_red {
+  background-color: #981818;
+}
+
+.button.btn_green {
+  background-color: #67bc5c;
+}
+
+.button.btn_blue {
+  background-color: #003469;
+}
+
+.button.btn_white {
+  background-color: #fff;
+  color: #000;
 }
 
 .button_wrap {
   text-align: right;
+}
+
+a.button {
+  color: #fff;
+  text-decoration: none;
 }

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	function wResize() {
-		//$("header").css("height", $(window).height());
+		$("header").css("min-height", $(window).height());
 	};
 	wResize();
 	$(window).resize(function() {

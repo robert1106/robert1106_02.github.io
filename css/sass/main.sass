@@ -75,14 +75,14 @@ header
 		font-family: "RobotoBold", sans-sarif
 
 .top_header 
-	margin-top: 60px
+	margin-top: 70px
 	h2
 		margin: 10px 0 0
 		font-family: "CleanvertisingLight", sans-serif
 		font-size: 36px
 
 .tabs_header 
-	margin-top: 30px
+	margin-top: 50px
 	.tab_item
 		display: none
 	.tab_item:first-child
@@ -102,7 +102,7 @@ header
 		line-height: 100px
 		color: #6F6A67
 	.tabs
-		span 
+		.tab
 	  	display: inline-block
 	  	background-color: rgba(255,255,255,.25)
 	  	padding: 15px 18px
@@ -136,11 +136,24 @@ header
 	border-radius: 3px
 	color: #fff 
 	text-decoration: none
-	font-family: "RobotoRegular", sans-sarif
+	font-family: "RobotoBold", sans-sarif
 	font-size: 16px
+	&.btn_red
+		background-color: $red-color
+	&.btn_green
+		background-color: $green-color
+	&.btn_blue
+		background-color: $blue-color
+	&.btn_white
+		background-color: #fff
+		color: #000
 
 .button_wrap 
 	text-align: right
+
+a.button 
+	color: #fff
+	text-decoration: none
 
 
 
