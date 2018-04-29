@@ -18,10 +18,6 @@
 	.logo{
 		margin-bottom: 15px;
 	}
-	.top_phone .tab_item {
-		font-size: 30px;
-	}
-	
 }
 
 /* Extra Small Devices, Phones */
@@ -35,6 +31,10 @@
 	}
 	.top_header h2{
 		font-size: 28px;
+	}
+	.tabs_header .tabs .tab{
+		font-size: 13px;
+		padding: 15px 11px;
 	}
 }
 
