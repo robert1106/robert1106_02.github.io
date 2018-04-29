@@ -61,23 +61,18 @@ header
 	font-family: "RobotoBold", sans-serif
 	font-weight: bold
 
-.top_phone
+.top_phone 
 	text-align: right
-
-.top_phone .tab_item:first-child 
-	display: block
-
-.top_phone .wrapper .tab
-	text-transform: uppercase
-	cursor: pointer
-
-.top_phone .wrapper .active
-	text-decoration: underline
-
-.top_phone .tab_item
-	display: none
-	font-size: 34px
-	font-family: "RobotoBold", sans-sarif
+	.wrapper 
+		.tab
+			text-transform: uppercase
+			cursor: pointer
+		.active
+			text-decoration: underline
+	.tab_item
+		display: none
+		font-size: 34px
+		font-family: "RobotoBold", sans-sarif
 
 .top_header 
 	margin-top: 60px
@@ -88,6 +83,10 @@ header
 
 .tabs_header 
 	margin-top: 30px
+	.tab_item
+		display: none
+	.tab_item:first-child
+		display: block			
 	ul, li
 		list-style-type: none
 		margin: 0
@@ -116,15 +115,15 @@ header
 	  	&.active
 	  		background-color: rgba(255,255,255,.6)
 	  		color: #000
-.tabs_header .tab_content
-	background-color: rgba(255,255,255,.6)
-	padding: 17px 18px 16px
-	color: #000
-	text-transform: uppercase
-	font-family: "RobotoBold", sans-sarif
-	font-size: 18px
+	.tab_content
+		background-color: rgba(255,255,255,.6)
+		padding: 17px 18px 16px
+		color: #000
+		text-transform: uppercase
+		font-family: "RobotoBold", sans-sarif
+		font-size: 18px
 
-.tab_content .button_wrap .button
+.button
 	border: none
 	cursor: pointer
 	display: inline-block
@@ -140,7 +139,7 @@ header
 	font-family: "RobotoRegular", sans-sarif
 	font-size: 16px
 
-.tab_content .button_wrap 
+.button_wrap 
 	text-align: right
 
 

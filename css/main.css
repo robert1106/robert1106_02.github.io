@@ -68,10 +68,6 @@ header {
   text-align: right;
 }
 
-.top_phone .tab_item:first-child {
-  display: block;
-}
-
 .top_phone .wrapper .tab {
   text-transform: uppercase;
   cursor: pointer;
@@ -99,6 +95,14 @@ header {
 
 .tabs_header {
   margin-top: 30px;
+}
+
+.tabs_header .tab_item {
+  display: none;
+}
+
+.tabs_header .tab_item:first-child {
+  display: block;
 }
 
 .tabs_header ul, .tabs_header li {
@@ -150,7 +154,7 @@ header {
   font-size: 18px;
 }
 
-.tab_content .button_wrap .button {
+.button {
   border: none;
   cursor: pointer;
   display: inline-block;
@@ -167,6 +171,6 @@ header {
   font-size: 16px;
 }
 
-.tab_content .button_wrap {
+.button_wrap {
   text-align: right;
 }
