@@ -32,9 +32,12 @@
 	.top_header h2{
 		font-size: 28px;
 	}
-	.tabs_header .tabs .tab{
+	.tabs_header .tabs .tab {
 		font-size: 13px;
 		padding: 15px 11px;
+	}
+	.button_wrap {
+		text-align: center;
 	}
 }
 
@@ -69,4 +72,18 @@
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+}
+
+@media (min-height: 760px) and (min-width: 1400px) {
+	.tabs_header {
+		position: absolute;
+		bottom: 80;
+	}
+	.tabs_header > div {
+		width: 100%;
+		max-width: 660px;
+	}
+	.top_header {
+		margin-top: 150px;
+	}
 }
