@@ -69,10 +69,13 @@ header
 			cursor: pointer
 		.active
 			text-decoration: underline
-	.tab_item
-		display: none
-		font-size: 34px
-		font-family: "RobotoBold", sans-sarif
+		.tab_item
+			display: none
+			font-size: 34px
+			font-family: "RobotoBold", sans-sarif
+		.tab_item:first-child
+			display: block
+
 
 .top_header 
 	margin-top: 70px
@@ -155,8 +158,26 @@ a.button
 	color: #fff
 	text-decoration: none
 
+.s_tizers
+	+linear-gradient(#c6dBee, #eBeff7)
+	color: $blue-color
+	font-family: "CleanvertisingLight", sans-serif
+	text-transform: uppercase
+	padding: 40px 0
+	span
+		font-size: 14px
+		display: block
+	strong
+		font-weight: normal
+		font-size: 25px
 
-
-
+.tiz_img,
+.tiz_descr
+	display: inline-block
+	vertical-align: bottom
+	
+.tiz_img
+	i
+		
 
 

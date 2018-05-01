@@ -77,10 +77,14 @@ header {
   text-decoration: underline;
 }
 
-.top_phone .tab_item {
+.top_phone .wrapper .tab_item {
   display: none;
   font-size: 34px;
   font-family: "RobotoBold", sans-sarif;
+}
+
+.top_phone .wrapper .tab_item:first-child {
+  display: block;
 }
 
 .top_header {
@@ -195,4 +199,32 @@ header {
 a.button {
   color: #fff;
   text-decoration: none;
+}
+
+.s_tizers {
+  background-color: #c6dBee;
+  background-image: -webkit-linear-gradient(#c6dBee, #eBeff7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c6dBee), to(#eBeff7));
+  background-image: -o-linear-gradient(#c6dBee, #eBeff7);
+  background-image: linear-gradient(#c6dBee, #eBeff7);
+  color: #003469;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+.s_tizers span {
+  font-size: 14px;
+  display: block;
+}
+
+.s_tizers strong {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.tiz_img,
+.tiz_descr {
+  display: inline-block;
+  vertical-align: bottom;
 }
