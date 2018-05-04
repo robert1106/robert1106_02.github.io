@@ -125,8 +125,13 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  line-height: 100px;
+  line-height: 26px;
   color: #6F6A67;
+}
+
+.tabs_header .my.my_a {
+  line-height: 34px;
+  font-size: 34px;
 }
 
 .tabs_header .tabs .tab {
@@ -210,7 +215,7 @@ a.button {
   color: #003469;
   font-family: "CleanvertisingLight", sans-serif;
   text-transform: uppercase;
-  padding: 40px 0;
+  padding: 35px 0 0;
 }
 
 .s_tizers span {
@@ -220,11 +225,67 @@ a.button {
 
 .s_tizers strong {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 24px;
+}
+
+.s_tizers .row > div {
+  margin-bottom: 35px;
 }
 
 .tiz_img,
 .tiz_descr {
   display: inline-block;
   vertical-align: bottom;
+}
+
+.tiz_img i {
+  font-size: 70px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+.s_tizers .row > div:nth-child(1) i {
+  font-family: "RobotoRegular",sans-serif;
+}
+
+.s_tizers .row > div:nth-child(1) strong {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(1) span {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.s_tizers .row > div:nth-child(2) strong {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(2) span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.s_tizers .row > div:nth-child(2) i {
+  position: relative;
+}
+
+.s_tizers .row > div:nth-child(3) strong {
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(3) span {
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(4) span {
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.s_tizers .row > div:nth-child(4) strong {
+  font-size: 22px;
+  line-height: 20px;
 }
