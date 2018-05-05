@@ -25,7 +25,7 @@ h1
 	margin: 0
 
 section 
-	padding: 58px 0 68px
+	padding: 18px 0 68px
 	&.s_dark
 		h2, h3, p
 			color: #fff
@@ -36,10 +36,17 @@ section
 		line-height: 56px
 		font-size: 50px
 		margin-bottom: 50px
+		font-family: "CleanvertisingLight", sans-serif
+		text-align: center
+		font-weight: normal
+
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
 	color: red
+	box-shadow: $red-color 0 0 0 2px
+	border-color: $red-color
+
 body input:required:valid,
 body textarea:required:valid
 	color: green
@@ -156,6 +163,7 @@ header
 
 .button_wrap 
 	text-align: right
+	margin-top: 20px
 
 a.button 
 	color: #fff
@@ -219,4 +227,62 @@ a.button
 		strong
 			font-size: 22px
 			line-height: 20px	
+
+p strong 
+	font-family: "RobotoBold",sans-serif
+	font-weight: normal
+
+.profi_left
+	color: $red-color
+	i
+		font-size: 100px
+		line-height: 110px
+.profi_right
+	h3
+		display: inline-block
+		margin: 0
+		color: $red-color
+		font-size: 28px
+	p
+		margin-top: 5px
+		font-size: 16px
+
+form
+	background-color: #F7F7F7
+	padding: 25px 30px
+	border: $green-color 5px solid
+	border-radius: 5px
+	h2 
+		text-transform: uppercase
+		margin-top: 0
+		margin-bottom: 30px
+		font-family: "RobotoBold", sans-serif
+		color: $text-color
+		font-size: 22px
+		line-height: 22px
+	label
+		display: block
+		margin-bottom: 15px
+		color: #666
+		font-size: 14px
+	input,
+	select
+		display: block
+		line-height: 40px
+		height: 40px
+		border: #D9D9D9 1px solid 
+		box-shadow: 0 0 20px rgba(0,0,0,.06) inset
+		width: 100%
+		text-indent: 10px
+		font-size: 18px
+		margin-top: 3px
+		&:focus
+			box-shadow: $green-color 0 0 0 2px
+			border-radius: 3px
+			border-color: $green-color
+	.button_wrap
+		text-align: center
+		margin: 30px 0 10px
+
+
 

@@ -19,7 +19,7 @@ h1 {
 }
 
 section {
-  padding: 58px 0 68px;
+  padding: 18px 0 68px;
 }
 
 section.s_dark h2, section.s_dark h3, section.s_dark p {
@@ -32,11 +32,17 @@ section h2 {
   line-height: 56px;
   font-size: 50px;
   margin-bottom: 50px;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-align: center;
+  font-weight: normal;
 }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red;
+  -webkit-box-shadow: #981818 0 0 0 2px;
+  box-shadow: #981818 0 0 0 2px;
+  border-color: #981818;
 }
 
 body input:required:valid,
@@ -199,6 +205,7 @@ header {
 
 .button_wrap {
   text-align: right;
+  margin-top: 20px;
 }
 
 a.button {
@@ -288,4 +295,81 @@ a.button {
 .s_tizers .row > div:nth-child(4) strong {
   font-size: 22px;
   line-height: 20px;
+}
+
+p strong {
+  font-family: "RobotoBold",sans-serif;
+  font-weight: normal;
+}
+
+.profi_left {
+  color: #981818;
+}
+
+.profi_left i {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.profi_right h3 {
+  display: inline-block;
+  margin: 0;
+  color: #981818;
+  font-size: 28px;
+}
+
+.profi_right p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+form {
+  background-color: #F7F7F7;
+  padding: 25px 30px;
+  border: #67bc5c 5px solid;
+  border-radius: 5px;
+}
+
+form h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "RobotoBold", sans-serif;
+  color: #333;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+form input,
+form select {
+  display: block;
+  line-height: 40px;
+  height: 40px;
+  border: #D9D9D9 1px solid;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+  width: 100%;
+  text-indent: 10px;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+form input:focus,
+form select:focus {
+  -webkit-box-shadow: #67bc5c 0 0 0 2px;
+  box-shadow: #67bc5c 0 0 0 2px;
+  border-radius: 3px;
+  border-color: #67bc5c;
+}
+
+form .button_wrap {
+  text-align: center;
+  margin: 30px 0 10px;
 }
